@@ -63,6 +63,7 @@ msgid "Action Needed"
 msgstr "Action nécessaire"
 
 #. module: mis_builder_budget
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget__active
 #: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account__active
 msgid "Active"
 msgstr ""
@@ -108,7 +109,10 @@ msgid "Analytic Precision"
 msgstr "Précision analytique"
 
 #. module: mis_builder_budget
+#: model_terms:ir.ui.view,arch_db:mis_builder_budget.mis_budget_by_account_form_view
 #: model_terms:ir.ui.view,arch_db:mis_builder_budget.mis_budget_by_account_search_view
+#: model_terms:ir.ui.view,arch_db:mis_builder_budget.mis_budget_form_view
+#: model_terms:ir.ui.view,arch_db:mis_builder_budget.mis_budget_search_view
 msgid "Archived"
 msgstr ""
 
