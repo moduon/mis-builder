@@ -1593,6 +1593,11 @@ msgid "Style name"
 msgstr "Nome stile"
 
 #. module: mis_builder
+#: model:ir.model.constraint,message:mis_builder.constraint_mis_report_style_style_name_uniq
+msgid "Style name should be unique"
+msgstr ""
+
+#. module: mis_builder
 #: model:ir.model.fields,field_description:mis_builder.field_mis_report__subkpi_ids
 msgid "Sub KPI"
 msgstr "Sotto KPI"
@@ -1935,8 +1940,8 @@ msgid ""
 "quantity</code>"
 msgstr ""
 "quando viene utilizzato <code>fld</code>: deve essere fornito \n"
-"                                        uno descrittore del nome del campo ("
-"ad esempio <code>fldp.quantity</code>"
+"                                        uno descrittore del nome del campo "
+"(ad esempio <code>fldp.quantity</code>"
 
 #. module: mis_builder
 #: model:ir.model.fields.selection,name:mis_builder.selection__mis_report_style__font_size__x-large
